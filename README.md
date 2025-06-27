@@ -93,5 +93,4 @@ GitHub: @mohammedtalha
 🔧 Built with passion, debugged with patience, and run wirelessly.
 ---
 
-Let me know if you want this updated with teammates, images/GIFs, or demo video links.
 
