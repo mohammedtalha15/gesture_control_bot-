@@ -1,96 +1,58 @@
-# Gesture Controlled ESP32 Robot
+# Gesture Controlled ESP32 Robot 🤖✋
 
-This project implements a gesture-controlled robot using **ESP32** boards communicating via **ESP-NOW protocol**. The robot interprets hand gestures (based on X and Y axis motion) and performs actions like **FORWARD**, **BACKWARD**, **LEFT**, **RIGHT**, or **STOP** depending on threshold values.
+Hi! I'm Mohammed Talha, and this is my hardware project built for the Hack Club Highway.  
+It's a gesture-controlled robot using ESP32 modules and ESP-NOW for wireless communication.
 
----
-
-## 📦 Features
-
-- 🤝 ESP-NOW communication (no WiFi needed)
-- 🖐️ Gesture-based control using accelerometer readings
-- ⚡ Real-time robot movement control
-- 🔧 Customizable motor control logic and gesture thresholds
+Basically, I move one ESP32 (with a motion sensor), and the robot receives the data and moves in that direction — forward, back, left, or right. No remote needed!
 
 ---
 
-## 🔧 Hardware Used
+## 🧠 How It Works
 
-- 2 × ESP32 boards (1 for transmitter, 1 for robot)
-- 1 × Accelerometer (e.g., MPU6050)
-- L298N Motor Driver Module
-- 4 × DC Motors with wheels
-- Battery pack
-- Robot chassis
+- I used **ESP-NOW** to send data wirelessly between two ESP32 boards.
+- On the controller side, I used motion data (from the accelerometer/gyroscope) to detect hand tilt.
+- That data gets sent to the receiver ESP32, which controls the robot’s motors using a motor driver.
+- Different tilts = different movements!
 
 ---
 
-## 📁 File Structure
-├── gesture_control_sender.ino      # Code to collect and send gesture data
-├── gesture_control_robot.ino      # Code to receive data and control motors
-├── LICENSE                        # GNU GPL v3.0 license
-└── README.md                      # This file
+## 🛠 Tech & Components Used
+
+- 2x ESP32 boards
+- MPU6050 motion sensor
+- L298N Motor Driver
+- 4-wheel robot chassis
+- 12V battery
+- Arduino IDE (for coding)
+- ESP-NOW protocol (for wireless)
+
 ---
 
-## 🚀 How to Run
+## 📂 Files Included
 
-### 1. 🛠️ Wiring and Setup
+- `gesture_control_robot.ino` – Main code for ESP32 controller
+- `robot_receiver.ino` – Code for receiver robot ESP32
+- `hardware_schematic.png` – Full wiring diagram
+- `final_project_report.pdf` – 2-page explanation of idea, tech, and impact
+- `demo_video_link.txt` – (Optional)
 
-- Upload `gesture_control_sender.ino` to your ESP32 sender.
-- Upload `gesture_control_robot.ino` to your ESP32 receiver.
-- Connect motors to the receiver ESP32 through the motor driver.
-- Ensure you set the correct `broadcastAddress[]` (receiver MAC address) in the sender code.
-
-### 2. ⚙️ Motor Pin Setup (in robot code)
-
-```cpp
-int motor1Pin1 = 27; 
-int motor1Pin2 = 26; 
-int motor1Pin3 = 21; 
-int motor1Pin4 = 22; 
-3. 🎚️ Threshold Logic
-
-In the updateDisplay() function:
-	•	X-axis:
-	•	X < -3 → LEFT
-	•	X > 3 → RIGHT
-	•	Y-axis:
-	•	Y < -4 → FORWARD
-	•	Y > 3 → BACKWARD
-	•	Default → STOP
-
-Adjust the thresholds based on testing and your accelerometer’s behavior.
-
-⸻
-
-📦 Libraries Required
-	•	WiFi.h
-	•	esp_now.h
-	•	(Optional: Wire.h and accelerometer library for gesture input)
-
-⸻
-
-📄 License
-
-This project is licensed under the terms of the GNU General Public License v3.0.
-See the LICENSE file for more information.
-
-⸻
-
-👨‍💻 Author
-
-Mohammed Talha
-BMSIT | CSE | Robotics & IoT Enthusiast
-GitHub: @mohammedtalha
-
-⸻
-
-🙌 Acknowledgements
-	•	ESP-NOW Documentation (Espressif)
-	•	Inspiration from similar gesture robot builds in robotics communities
-
-⸻
-
-🔧 Built with passion, debugged with patience, and run wirelessly.
 ---
 
+## 📸 Preview
 
+![Schematic](hardware_schematic.png)
+
+---
+
+## 💡 Why I Built This
+
+I wanted to try something fun and different with ESP32. Gesture control felt futuristic and I wanted to see if I could pull it off — and it worked!
+
+Big thanks to Hack Club for motivating this through the Highway project grants 🙌
+
+---
+
+### 🔗 GitHub Repo  
+https://github.com/mohammedtalha15/gesture_control_bot-
+
+Made with ❤️ from India 🇮🇳
