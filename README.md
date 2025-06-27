@@ -34,7 +34,6 @@ Basically, I move one ESP32 (with a motion sensor), and the robot receives the d
 - `robot_receiver.ino` – Code for receiver robot ESP32
 - `hardware_schematic.png` – Full wiring diagram
 - `final_project_report.pdf` – 2-page explanation of idea, tech, and impact
-- `demo_video_link.txt` – (Optional)
 
 ---
 
