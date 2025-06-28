@@ -1,24 +1,31 @@
+---
+title: "Gesture Controlled ESP32 Robot"
+author: "Mohammed Talha (mohammedtalha15)"
+description: "A robot that moves based on hand gestures using ESP-NOW between two ESP32 boards."
+created_at: "2024-06-20"
+total_time_hours: 28
+---
+
 # Journal – Gesture Controlled ESP32 Robot
 
-## Week 1 – Idea and Planning
+## Week 1 – Idea and Planning (4 hours)
 
-I started off by going through a few ideas for the Hack Club Highway project. I knew I wanted to do something hands-on with ESP32 because I had worked with it before. After exploring a few hardware concepts, I came up with the idea of controlling a robot using hand gestures — no remotes, just movement. It sounded like something fun and different, so I decided to go for it.
+I started off thinking about what I could build with the ESP32 boards I already had. After checking out a few ideas, I came up with the concept of a gesture-controlled robot using ESP-NOW. It felt like a good mix of fun and challenge, and I hadn't seen too many people do it without a phone or remote.
 
-## Week 2 – Components and Research
+## Week 2 – Research and Components (6 hours)
 
-I looked into what I would need for this build. I already had two ESP32 boards and an MPU6050 motion sensor. I also got a basic robot chassis, L298N motor driver, and a 12V battery. I spent time understanding how ESP-NOW works, and how I could use it to send sensor data wirelessly between the two ESP32 boards.
+I looked up how the MPU6050 sensor works and how ESP-NOW can be used to send data between two ESP32s. I also listed all the parts I needed — like the motor driver, chassis, battery, etc. I already had some of them from old kits. I spent time going through tutorials and examples to understand how to structure the sender and receiver code.
 
-## Week 3 – Coding and Testing
+## Week 3 – Coding and Prototyping (10 hours)
 
-I started coding both the transmitter and receiver ESP32s. On the controller side, I read data from the MPU6050 sensor (like acceleration and tilt), and on the robot side, I mapped that data to motor movements. The wireless part using ESP-NOW was tricky at first — I had to experiment with timing and data formats to make the communication smooth. After some testing and debugging, it started working as expected.
+I started writing the code on both ends — one ESP32 reads the motion data and the other moves the motors based on that. I had to test and tune how the MPU6050 responds to tilt and how to format the data for ESP-NOW transmission. After some trial and error, I got consistent communication and reliable gesture detection.
 
-## Week 4 – Documentation and Wrap-up
+## Week 4 – Assembly, Testing, and Documentation (8 hours)
 
-Once the robot was moving based on hand gestures, I finalized the code and created a basic schematic to show how I wired it. I wrote a short project report (final_project_report.pdf) and added a README with all the details. I also created this journal to document how I built everything from scratch.
+I mounted the motor driver and receiver board on the robot chassis. The transmitter ESP32 and MPU6050 stayed on a breadboard. After connecting everything, the robot finally responded to hand movement as expected. I also made a circuit schematic, wrote the project report, added a README, created the BOM and this journal, and took a photo of the final setup to include in the repo.
 
-Then I submitted the project through a pull request to the Hack Club Highway repo and posted about it in the #highway Slack channel.
+Then I submitted everything to the Hack Club Highway repo and posted in the Slack channel.
 
 ---
 
-This was a great learning experience. I got to explore ESP-NOW in depth and build something I had never tried before. Thank you Hack Club for the opportunity and support!
-
+This project helped me understand ESP-NOW really well and gave me hands-on experience with wireless motion control. Glad I went with this idea!
