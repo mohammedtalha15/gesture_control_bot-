@@ -21,3 +21,4 @@ Then I submitted the project through a pull request to the Hack Club Highway rep
 ---
 
 This was a great learning experience. I got to explore ESP-NOW in depth and build something I had never tried before. Thank you Hack Club for the opportunity and support!
+![image](https://github.com/user-attachments/assets/f8a7f5a9-d8ca-426d-9beb-519d3f1ff459)
