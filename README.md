@@ -25,6 +25,7 @@ This is a robot I built that moves based on hand gestures. I used two ESP32 boar
 I put the MPU6050 and one ESP32 on a breadboard — this is the controller.  
 The other ESP32 is fixed on the robot chassis with the motor driver.  
 I wrote code for both sides. The controller reads pitch/roll and sends values through ESP-NOW. The receiver gets the values and moves the motors based on that.
+![image](https://github.com/user-attachments/assets/94322965-7725-4556-8e8b-44a2718bec8c)
 
 I tested and tuned it till the robot started responding correctly to the gestures.
 
