@@ -48,7 +48,13 @@ Then I prepared this journal, made sure everything in the repo was organized, an
 
 This project taught me a lot — not just about ESP-NOW and sensors, but also how to document properly and manage an electronics build from start to finish. Thanks to Hack Club for the push and guidance!
 
+During the build 
+![image](https://github.com/user-attachments/assets/376358d2-5348-4e3e-8cd2-8fea38ce9c92)
 
+had to change the wires due to some issues
+![image](https://github.com/user-attachments/assets/fb443dd2-37f2-4131-94c4-ab3ac9a75ba0)
+
+![image](https://github.com/user-attachments/assets/a5c72e78-71df-4f6c-b91f-f3c79f9f2bf4)
 
 Final build of the bot
 ![image](https://github.com/user-attachments/assets/5a6a33c0-3814-444a-9cf9-2060f27a072d)
