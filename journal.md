@@ -47,6 +47,10 @@ Then I prepared this journal, made sure everything in the repo was organized, an
 **Total Time: 28 hours**
 
 This project taught me a lot — not just about ESP-NOW and sensors, but also how to document properly and manage an electronics build from start to finish. Thanks to Hack Club for the push and guidance!
+
+
+
 Final build of the bot
+https://private-user-images.githubusercontent.com/205971717/460258413-94322965-7725-4556-8e8b-44a2718bec8c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTE4MTQyMDcsIm5iZiI6MTc1MTgxMzkwNywicGF0aCI6Ii8yMDU5NzE3MTcvNDYwMjU4NDEzLTk0MzIyOTY1LTc3MjUtNDU1Ni04ZThiLTQ0YTI3MThiZWM4Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwNlQxNDU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNDQyZWQ5YjA4Yzg1MzU5Y2Y3ZTlmMzlhNWQwZjhiYWQ4NmM1YmQzMDE0ZjhmZGQyYTM3MjA4MjIyYzFlMDg5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.q_Sx3Bz0Pxz6KBZaetHriMH5544KyIQALzq9tfLcYEk![image](https://github.com/user-attachments/assets/8d2ffb9a-d20b-48fe-b93f-c2193cf4fdab)
 
 
